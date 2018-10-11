@@ -1,8 +1,8 @@
 //
 //  ViewController.swift
-//  Amicort
+//  AmicortApp
 //
-//  Created by Kirill on 03.10.2018.
+//  Created by Kirill on 11.10.2018.
 //  Copyright © 2018 Kirill. All rights reserved.
 //
 
