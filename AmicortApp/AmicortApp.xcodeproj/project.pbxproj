@@ -14,6 +14,7 @@
 		EDE91C23216FDAA5003CB0A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDE91C21216FDAA5003CB0A0 /* LaunchScreen.storyboard */; };
 		EDE91C3C2176B297003CB0A0 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDE91C3A2176B297003CB0A0 /* Login.storyboard */; };
 		EDE91C3D2176B297003CB0A0 /* Registration.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDE91C3B2176B297003CB0A0 /* Registration.storyboard */; };
+		EDE91C3F2176B707003CB0A0 /* News.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDE91C3E2176B707003CB0A0 /* News.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		EDE91C24216FDAA5003CB0A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EDE91C3A2176B297003CB0A0 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		EDE91C3B2176B297003CB0A0 /* Registration.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Registration.storyboard; sourceTree = "<group>"; };
+		EDE91C3E2176B707003CB0A0 /* News.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = News.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 			children = (
 				EDE91C3A2176B297003CB0A0 /* Login.storyboard */,
 				EDE91C3B2176B297003CB0A0 /* Registration.storyboard */,
+				EDE91C3E2176B707003CB0A0 /* News.storyboard */,
 			);
 			path = Storybords;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDE91C3D2176B297003CB0A0 /* Registration.storyboard in Resources */,
+				EDE91C3F2176B707003CB0A0 /* News.storyboard in Resources */,
 				EDE91C3C2176B297003CB0A0 /* Login.storyboard in Resources */,
 				EDE91C23216FDAA5003CB0A0 /* LaunchScreen.storyboard in Resources */,
 				EDE91C20216FDAA5003CB0A0 /* Assets.xcassets in Resources */,
