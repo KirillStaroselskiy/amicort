@@ -15,6 +15,11 @@
 		EDE91C3C2176B297003CB0A0 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDE91C3A2176B297003CB0A0 /* Login.storyboard */; };
 		EDE91C3D2176B297003CB0A0 /* Registration.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDE91C3B2176B297003CB0A0 /* Registration.storyboard */; };
 		EDE91C3F2176B707003CB0A0 /* News.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDE91C3E2176B707003CB0A0 /* News.storyboard */; };
+		EDE91C412178F30E003CB0A0 /* SelfPassword.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDE91C402178F30D003CB0A0 /* SelfPassword.storyboard */; };
+		EDE91C442178F421003CB0A0 /* TabController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDE91C432178F421003CB0A0 /* TabController.storyboard */; };
+		EDE91C462178F7EA003CB0A0 /* Files.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDE91C452178F7EA003CB0A0 /* Files.storyboard */; };
+		EDE91C482178F820003CB0A0 /* ClinicMap.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDE91C472178F820003CB0A0 /* ClinicMap.storyboard */; };
+		EDE91C4A2178F86E003CB0A0 /* Appointments.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDE91C492178F86E003CB0A0 /* Appointments.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +33,11 @@
 		EDE91C3A2176B297003CB0A0 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		EDE91C3B2176B297003CB0A0 /* Registration.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Registration.storyboard; sourceTree = "<group>"; };
 		EDE91C3E2176B707003CB0A0 /* News.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = News.storyboard; sourceTree = "<group>"; };
+		EDE91C402178F30D003CB0A0 /* SelfPassword.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SelfPassword.storyboard; sourceTree = "<group>"; };
+		EDE91C432178F421003CB0A0 /* TabController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TabController.storyboard; sourceTree = "<group>"; };
+		EDE91C452178F7EA003CB0A0 /* Files.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Files.storyboard; sourceTree = "<group>"; };
+		EDE91C472178F820003CB0A0 /* ClinicMap.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ClinicMap.storyboard; sourceTree = "<group>"; };
+		EDE91C492178F86E003CB0A0 /* Appointments.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Appointments.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +86,12 @@
 			children = (
 				EDE91C3A2176B297003CB0A0 /* Login.storyboard */,
 				EDE91C3B2176B297003CB0A0 /* Registration.storyboard */,
+				EDE91C402178F30D003CB0A0 /* SelfPassword.storyboard */,
+				EDE91C432178F421003CB0A0 /* TabController.storyboard */,
 				EDE91C3E2176B707003CB0A0 /* News.storyboard */,
+				EDE91C452178F7EA003CB0A0 /* Files.storyboard */,
+				EDE91C472178F820003CB0A0 /* ClinicMap.storyboard */,
+				EDE91C492178F86E003CB0A0 /* Appointments.storyboard */,
 			);
 			path = Storybords;
 			sourceTree = "<group>";
@@ -139,7 +154,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDE91C412178F30E003CB0A0 /* SelfPassword.storyboard in Resources */,
+				EDE91C462178F7EA003CB0A0 /* Files.storyboard in Resources */,
 				EDE91C3D2176B297003CB0A0 /* Registration.storyboard in Resources */,
+				EDE91C4A2178F86E003CB0A0 /* Appointments.storyboard in Resources */,
+				EDE91C482178F820003CB0A0 /* ClinicMap.storyboard in Resources */,
+				EDE91C442178F421003CB0A0 /* TabController.storyboard in Resources */,
 				EDE91C3F2176B707003CB0A0 /* News.storyboard in Resources */,
 				EDE91C3C2176B297003CB0A0 /* Login.storyboard in Resources */,
 				EDE91C23216FDAA5003CB0A0 /* LaunchScreen.storyboard in Resources */,
