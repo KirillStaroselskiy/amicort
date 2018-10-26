@@ -136,20 +136,20 @@ extension UITextFieldDelegate {
         }
         var nIndex: Int
         nIndex = 7
-//                    //format +X(XXX)XXX-XX-XX  -> if need uncoment
-//                    nIndex = 9
-//
-//                    if length > 7 {
-//                        endOffset = 9
-//                        template = "-"
-//                        if length < 9 {
-//                            endOffset = length
-//                            template = ""
-//                        }
-//                        indexStart = numString.index(numString.startIndex, offsetBy: 7)
-//                        indexEnd = numString.index(numString.startIndex, offsetBy: endOffset)
-//                        maskString += String(numString[indexStart..<indexEnd]) + template
-//                    }
+                    //format +X(XXX)XXX-XX-XX  -> if need uncoment
+                    nIndex = 9
+
+                    if length > 7 {
+                        endOffset = 9
+                        template = "-"
+                        if length < 9 {
+                            endOffset = length
+                            template = ""
+                        }
+                        indexStart = numString.index(numString.startIndex, offsetBy: 7)
+                        indexEnd = numString.index(numString.startIndex, offsetBy: endOffset)
+                        maskString += String(numString[indexStart..<indexEnd]) + template
+                    }
         
         if length > nIndex {
             indexStart = numString.index(numString.startIndex, offsetBy: nIndex)
