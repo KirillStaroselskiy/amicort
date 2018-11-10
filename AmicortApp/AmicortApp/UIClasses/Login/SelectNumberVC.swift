@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SelectNumberVC: UIViewController, UITextFieldDelegate{
+class SelectNumberVC: UIViewController{
 
     
     @IBOutlet weak var informText: UILabel!
@@ -32,7 +32,20 @@ class SelectNumberVC: UIViewController, UITextFieldDelegate{
     }
     
     
-    // MARK: - TextFieldMask
+    /*
+    // MARK: - Navigation
+
+    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // Get the new view controller using segue.destination.
+        // Pass the selected object to the new view controller.
+    }
+    */
+
+}
+
+extension SelectNumberVC: UITextFieldDelegate{
+    
 
     func textFieldDidBeginEditing(_ textField: UITextField) {
         if (textField == self.selectNumber) && textField.text == ""{
@@ -41,7 +54,7 @@ class SelectNumberVC: UIViewController, UITextFieldDelegate{
     }
     
     func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
-            
+        
             if textField == selectNumber {
                 let res = phoneMask(phoneTextField: selectNumber, textField: textField, range, string)
                 myPhoneNumber = res.phoneNumber != "" ? "+\(res.phoneNumber)" : ""
@@ -57,16 +70,6 @@ class SelectNumberVC: UIViewController, UITextFieldDelegate{
     
     
     
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }
 
 extension UITextFieldDelegate {
@@ -133,20 +136,20 @@ extension UITextFieldDelegate {
         }
         var nIndex: Int
         nIndex = 7
-//                    //format +X(XXX)XXX-XX-XX  -> if need uncoment
-//                    nIndex = 9
-//
-//                    if length > 7 {
-//                        endOffset = 9
-//                        template = "-"
-//                        if length < 9 {
-//                            endOffset = length
-//                            template = ""
-//                        }
-//                        indexStart = numString.index(numString.startIndex, offsetBy: 7)
-//                        indexEnd = numString.index(numString.startIndex, offsetBy: endOffset)
-//                        maskString += String(numString[indexStart..<indexEnd]) + template
-//                    }
+                    //format +X(XXX)XXX-XX-XX  -> if need uncoment
+                    nIndex = 9
+
+                    if length > 7 {
+                        endOffset = 9
+                        template = "-"
+                        if length < 9 {
+                            endOffset = length
+                            template = ""
+                        }
+                        indexStart = numString.index(numString.startIndex, offsetBy: 7)
+                        indexEnd = numString.index(numString.startIndex, offsetBy: endOffset)
+                        maskString += String(numString[indexStart..<indexEnd]) + template
+                    }
         
         if length > nIndex {
             indexStart = numString.index(numString.startIndex, offsetBy: nIndex)
